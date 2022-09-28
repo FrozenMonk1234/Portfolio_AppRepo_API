@@ -35,7 +35,7 @@ namespace Portfolio_AppRepo_API.Classes
         {
             //return true;
 
-            var entry = new DirectoryEntry("LDAP://MPACT.NET", m_UserName, m_Password);
+            var entry = new DirectoryEntry("LDAP://TEST.NET", m_UserName, m_Password);
 
             //Get connection
             object nativeObject = entry.NativeObject;
